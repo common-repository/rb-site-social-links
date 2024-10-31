@@ -1,0 +1,30 @@
+{
+    "landingPage": "\/wp-admin\/plugins.php",
+    "preferredVersions": {
+        "php": "7.0",
+        "wp": "6.5.2"
+    },
+    "phpExtensionBundles": [
+        "kitchen-sink"
+    ],
+    "features": {
+        "networking": true
+    },
+    "steps": [
+        {
+            "step": "installPlugin",
+            "pluginZipFile": {
+                "resource": "url",
+                "url": "https:\/\/downloads.wordpress.org\/plugin\/rb-site-social-links.1.0.5.zip"
+            },
+            "options": {
+                "activate": true
+            }
+        },
+        {
+            "step": "login",
+            "username": "bashirrased2017",
+            "password": "Bashir*2023#Happy"
+        }
+    ]
+}
